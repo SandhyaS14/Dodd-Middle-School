@@ -1,36 +1,127 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Dodd Middle School</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-    <nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 99999;">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">Dodd Middle School</a>
+<head>
+<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#announcement">Dodd Middle School</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#campus_life">Primary Subjects</a></li>
+        <li><a href="#achievements">UA Classes</a></li>
+        <li><a href="#new">Clubs</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on school@gmail.com  ***
+    </marquee>
+</div>
+<iframe id="video" src="https://www.youtube.com/embed/9bVI-yfFfHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+  <div class="page-header" id="campus_life">
+  		<h2 class="text-capitalize">Primary Subjects</h2>
+  <div class="row">
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="science.jpeg">
+      <h4 class="text-capitalize"><kbd>science</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >One of the core subjects</h5>
+      <p class="text-muted text-left" >Science is the most important subject along with Math</p>
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="math.jpeg">
+      <h4 class="text-capitalize"><kbd>Math </kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >One of the Core subjects</h5>
+      <p class="text-muted text-left" >Math is the most important subject alongside Science</p>
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="english.png">
+      <h4 class="text-capitalize"><kbd>LA</kbd></h4>
+      <hr >
+      <h5 class="text-success text-left text-capitalize" >Also one of the core</h5>
+      <p class="text-muted text-left" >Not as important as Math or science but important</p>
+    </div>
+  </div>
+</div>
+	<div class="page-header" id="achievements">
+  		<h2 class="text-capitalize">UA Classes</h2>
+  </div>
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1" >
+    UA Classes <i class="fa fa-sort-desc" ></i>
+  </div>
+  <div id="school_achievement1" class="collapse">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+	  		<img src="robotics.jpeg" class="img-responsive img-thumbnail"> 
+	  </div>
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-success text-left text-capitalize">
+              UA classes are what are called electives in High school. UA stands for Unified arts.
+          </h5>
+		  <p>There are all kinds of UA classes including Robotics and Marketing.</p>
+	  </div>
+  </div>
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+      <h2 class="text-capitalize ">Famous Clubs</h2>
+  </div>
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+      <h4>Drama Club</h4>
+      <img src="https://live.staticflickr.com/2110/2196260331_c6592e8dab_c.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >
+        The Dodd Drama Club is an organization for students interested in theater. There is typically one production each school year in the early spring. Students who are cast in the show will attend after school rehearsals from 2:45-4:45 Tuesday-Thursday with additional rehearsals as the show gets closer. Students can also be involved in the drama club if they are interested in helping out “behind the scenes.” There is always work to be done on sets, lights, camera, video, costumes, and make-up and hair.
+      </p>
+     </li>
+    <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+     <h4>News Paper Club</h4>
+     <img src="https://5.imimg.com/data5/ZA/SJ/QC/SELLER-7950336/rfid-smart-attendance-for-school-500x500.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+	    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >
+            Students create and write an on-line school newspaper based on school events and outside interests.
+        </p>
+    </li>
+</ul>
+
+<div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+  <h2 class="text-capitalize ">Contact Us</h2>
+</div>
+
+<div id="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+</div>
+  <div id="details">
+    <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+    <h3>Principal Name: </h3>
+    <h4>Mr. Michael Woods </h4>
+        <div class="contact_1" >
+           <a href="mailto:school@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mwoods@cheshire.k12.ct.us</h5>
+            </a> 
+            <a href="#"> 
+              <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;(203) 272-3249</h5>
+           </a> 
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar" >
-            <ul class="nav navbar-nav">
-                <li><a>School Name</a></li>
-                <li><a>Primary Subjects</a></li>
-                <li><a>Clubs</a></li>
-                <li><a>Alumini</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <section id="Contact">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.6650401053607!2d-72.90401201495406!3d41.511533027431945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7c61b83b9c69b%3A0xd3a412f003470888!2sBertram%20F%20Dodd%20Middle%20School!5e0!3m2!1sen!2sus!4v1627160405235!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </section>
-    </body>
+      </div>
+  </div>
+  <div id="footer"></div>
+
+</body>
 </html>
